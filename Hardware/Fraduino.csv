@@ -1,11 +1,11 @@
 Name,Description,Designator,Footprint,Quantity,Value
-SW-PB,Switch,"B1, B2",TSW SMD-3*4*2.5,2,-
+SW-PB,Switch,"B1, B2",SMD-3*4*2.5,2,-
 Cap,Capacitor,"C1, C4, C5",C0603,3,100nF
 Cap,Capacitor,"C6, C7",C0603,2,12pF
 Cap,Capacitor,C8,C0603,1,22uF
 WS2812-2020,Addressable Fullcolor LED,"D1, D2, D3, D4, D5, D6",WS2812-2020-S,6,-
 Res2,Resistor,"R1, R2, R3",R0603,3,10K
-STM32F103C8T6,ARM Cortex-M3 32-bit MCU,U1,STM-LQFP48_L,1,-
-AMS1117-3.3,LDO Voltage Regulators,U2,FP-AMS1117-IPC_C,1,-
-CH340N,USB to Serial Port Chip,U3,SOP8_L,1,-
-XTAL,Miniature Ceramic Crystal,X1,ABRA-ABM3-2_V,1,8MHz
+STM32F103C8T6,ARM Cortex-M3 32-bit MCU,U1,LQFP-48(7x7),1,-
+AMS1117-3.3,LDO Voltage Regulators,U2,SOT-223,1,-
+CH340N,USB to Serial Port Chip,U3,SOP-8,1,-
+XTAL,Miniature Ceramic Crystal,X1,SMD5032-2P,1,8MHz
